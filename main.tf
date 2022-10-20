@@ -15,5 +15,5 @@ provider "aws" {
 
 resource "aws_instance" "shiviinfra" {
 	ami = "ami-026b57f3c383c2eec" 
-	instance_type = "t2.micro"
+	instance_type = "t2.nano"
 }
